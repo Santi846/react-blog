@@ -7,8 +7,12 @@ export function Testimony(props) {
       <img className="testimony_image" src={require(`../images/${props.image}.jpg`)} alt="Boruto" />
 
       <div className="testimony_text_container">
-        <p className="testimony_name">{props.name} of {props.country}</p>
-        <p className="testimony_job">{props.job} at {props.company}</p>
+        <p className="testimony_name">
+          <strong>{props.name}</strong> of
+          <b> {props.country}</b></p>
+        <p className="testimony_job">
+          <strong>{props.job}</strong> at 
+          <b> {props.company}</b></p>
         <p className="testimony_text_description">{props.description}</p>
       </div>
     </div>

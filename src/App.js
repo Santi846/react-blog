@@ -2,6 +2,8 @@
 import './App.css';
 import { Testimony } from './components/testimony.jsx';
 
+/*Issue: Put some text in bold from description item*/
+// const bold = <b></b>;
 
 function App() {
   return (
