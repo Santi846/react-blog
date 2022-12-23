@@ -36,3 +36,17 @@ html, body {
     align-items: center;
     justify-content: center;
 }
+
+.subtitle{
+    margin-top: 1.5rem;
+    margin-right: 9%;
+}
+
+.title{
+    margin-left: 8rem;
+    margin-top: 1.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    padding-bottom: 0%;
+}
