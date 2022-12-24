@@ -39,11 +39,11 @@ html, body {
 
 .subtitle{
     margin-top: 1.5rem;
-    margin-right: 9%;
+    margin-right: 10%;
 }
 
 .title{
-    margin-left: 8rem;
+    margin-left: 9rem;
     margin-top: 1.5rem;
     display: flex;
     flex-wrap: wrap;
