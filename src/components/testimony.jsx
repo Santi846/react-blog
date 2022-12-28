@@ -13,7 +13,7 @@ export function Testimony(props) {
         <p className="testimony_job">
           <strong>{props.job}</strong> at 
           <b> {props.company}</b></p>
-        <p className="testimony_text_description">{props.description}</p>
+        <p className="testimony_text_description"><strong>{props.name}</strong>{props.description}</p>
       </div>
     </div>
   );
