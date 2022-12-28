@@ -5,6 +5,11 @@ import { Testimony } from './components/testimony.jsx';
 /*Issue: Put some text in bold from description item*/
 // const bold = <b></b>;
 
+// function bold(e) {
+//   e.style.fontWeight = 'bold';
+//   return e;
+// }
+
 function App() {
   return (
      <div className="App">
@@ -12,12 +17,12 @@ function App() {
           <h1 className='title'>Anime Characters</h1>
           <h2 className='subtitle'>These are our best warriors descriptions: What do you think about them?</h2>
           <Testimony 
-          name='Boruto'
+          name='Boruto Uzumaki'
           country='Leaf'
           image='boruto'
           job='Shinobi'
           company='7 Team'
-          description='Boruto Uzumaki(うずまきボルト, Uzumaki Boruto) is a shinobi from Konoha, from Uzumaki clan and a direct descendant of the Hyūga clan through his mother. While initially resentful of his father and his absence since becoming Hokage, Boruto eventually comes to respect his father and duties. Regardless, he vows to instead become a shinobi like his mentor.' 
+          description={`Boruto Uzumaki is a shinobi from Konoha, from Uzumaki clan and a direct descendant of the Hyūga clan through his mother. While initially resentful of his father and his absence since becoming Hokage, Boruto eventually comes to respect his father and duties. Regardless, he vows to instead become a shinobi like his mentor.`}
           />
 
           <Testimony 
