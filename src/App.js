@@ -1,6 +1,7 @@
 // import logo from './logo.svg';
 import './App.css';
 import { Testimony } from './components/testimony.jsx';
+import { boruto_object, zenitsu_object } from './components/props.js';
 
 
 
@@ -12,23 +13,11 @@ function App(props) {
           <h1 className='title'>Anime Characters</h1>
           <h2 className='subtitle'>These are our best warriors descriptions: What do you think about them?</h2>
           <Testimony 
-          name='Boruto Uzumaki'
-          country='Leaf'
-          image='boruto'
-          job='Shinobi'
-          company='7 Team'
-          description={` is a shinobi from Konoha, from Uzumaki clan and a direct descendant of the Hyūga clan through his mother. While initially resentful of his father and his absence since becoming Hokage, Boruto eventually comes to respect his father and duties. Regardless, he vows to instead become a shinobi like his mentor.`}
-          
-        
+          {...boruto_object}  
           />
 
           <Testimony 
-          name='Master Swordsman: Zenitsu'
-          country='Japan'
-          image='flash'
-          job='Samurai'
-          company='Deamon Slayer'
-          description=" is an incredibly talented swordsman, especially in his proficiency in extremely fast Iaijutsu-like swordsmanship and the Thunderclap and Flash technique, to the point he can create offshoots of the technique and utilize it even while he is asleep."         
+          {...zenitsu_object}         
           />
 
           <Testimony 
