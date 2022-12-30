@@ -2,28 +2,10 @@
 import './App.css';
 import { Testimony } from './components/testimony.jsx';
 
-/*Issue: Put some text in bold from description item*/
-// const bold = <b></b>;
 
-// function bold(e) {
-//   e.style.fontWeight = 'bold';
-//   return e;
-// }
-
-// function boldText() {
-  
-
-
-// }
 
 function App(props) {
-  // var testomonies = { name:Testimony.name, text:Testimony.description };
-  // function name_character() {
-  //   return (
-  //     <strong>Boruto Uzumaki</strong>
-  //   );
-  // }
-  // var name_boruto = <b>Boruto Uzumaki</b>;
+  
   return (
      <div className="App">
        <div className='principal_container'>
@@ -65,7 +47,8 @@ function App(props) {
           image='minato'
           job='Shinobi'
           company='7 Team'
-          description=" was the Fourth Hokage (四代目火影, Yondaime Hokage, literally meaning: Fourth Fire Shadow) of Konohagakure. He was renowned all over the world as Konoha's Yellow Flash (木ノ葉の黄色い閃光, Konoha no Kiiroi Senkō, English TV: Yellow Flash of the Leaf). He died during the Nine-Tailed Demon Fox's Attack, sacrificing his life to seal a part of the Nine-Tails into his newborn son, Naruto Uzumaki."         
+          description=" was the Fourth Hokage (四代目火影, Yondaime Hokage, literally meaning: Fourth Fire Shadow) of Konohagakure. He was renowned all over the world as Konoha's Yellow Flash (木ノ葉の黄色い閃光, Konoha no Kiiroi Senkō, English TV: Yellow Flash of the Leaf). He died during the Nine-Tailed Demon Fox's Attack, sacrificing his life to seal a part of the Nine-Tails into his newborn son "
+          professional_name ="Naruto Uzumaki."         
           />
 
           <Testimony 

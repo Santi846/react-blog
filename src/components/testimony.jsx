@@ -5,7 +5,7 @@ export function Testimony(props) {
   if (props.professional_name) {
   return (
     <div className="testimony_container">
-      <img className="testimony_image" src={require(`../images/${props.image}.jpg`)} alt="Boruto" />
+      <img className="testimony_image" src={require(`../images/${props.image}.jpg`)} alt={require(`../images/${props.image}.jpg`)} />
 
       <div className="testimony_text_container">
         <p className="testimony_name">
@@ -22,7 +22,7 @@ export function Testimony(props) {
  }
  return (
   <div className="testimony_container">
-    <img className="testimony_image" src={require(`../images/${props.image}.jpg`)} alt="Boruto" />
+    <img className="testimony_image" src={require(`../images/${props.image}.jpg`)} alt={require(`../images/${props.image}.jpg`)} />
 
     <div className="testimony_text_container">
       <p className="testimony_name">
@@ -37,5 +37,3 @@ export function Testimony(props) {
   </div>
 );
 }
-
-// export default Testimony;
