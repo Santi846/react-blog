@@ -16,9 +16,14 @@ import { Testimony } from './components/testimony.jsx';
 
 // }
 
-function App() {
-  var descriptions = { name:Testimony.name, text:Testimony.description };
-
+function App(props) {
+  // var testomonies = { name:Testimony.name, text:Testimony.description };
+  // function name_character() {
+  //   return (
+  //     <strong>Boruto Uzumaki</strong>
+  //   );
+  // }
+  // var name_boruto = <b>Boruto Uzumaki</b>;
   return (
      <div className="App">
        <div className='principal_container'>
@@ -30,8 +35,8 @@ function App() {
           image='boruto'
           job='Shinobi'
           company='7 Team'
-          description={descriptions}
-          // {'is a shinobi from Konoha, from Uzumaki clan and a direct descendant of the Hyūga clan through his mother. While initially resentful of his father and his absence since becoming Hokage, Boruto eventually comes to respect his father and duties. Regardless, he vows to instead become a shinobi like his mentor.'}
+          description={` is a shinobi from Konoha, from Uzumaki clan and a direct descendant of the Hyūga clan through his mother. While initially resentful of his father and his absence since becoming Hokage, Boruto eventually comes to respect his father and duties. Regardless, he vows to instead become a shinobi like his mentor.`}
+          
         
           />
 
@@ -50,7 +55,8 @@ function App() {
           image='Kakashi'
           job='Shinobi'
           company='7 Team'
-          description=" is a shinobi of Konohagakure's Hatake clan. Famed as Kakashi of the Sharingan (写輪眼のカカシ, Sharingan no Kakashi), he is one of Konoha's most talented ninja, regularly looked to for advice and leadership despite his personal dislike of responsibility. To his students on Team 7, Kakashi emphasises the importance of teamwork; he himself received this lesson, along with the Sharingan, from his childhood friend, Obito Uchiha. After the Fourth Shinobi World War, Kakashi becomes Konoha's Sixth Hokage (六代目火影, Rokudaime Hokage, literally meaning: Sixth Fire Shadow)."         
+          description=" is a shinobi of Konohagakure's Hatake clan. Famed as Kakashi of the Sharingan (写輪眼のカカシ, Sharingan no Kakashi), he is one of Konoha's most talented ninja, regularly looked to for advice and leadership despite his personal dislike of responsibility. To his students on Team 7, Kakashi emphasises the importance of teamwork; he himself received this lesson, along with the Sharingan, from his childhood friend, Obito Uchiha. After the Fourth Shinobi World War,"
+          professional_name=" Kakashi becomes Konoha's Sixth Hokage (六代目火影, Rokudaime Hokage, literally meaning: Sixth Fire Shadow."          
           />
 
           <Testimony 
