@@ -5,7 +5,7 @@ import { boruto_object, zenitsu_object, kakashi_object, minato_object, sasuke_ob
 
 
 
-function App(props) {
+function App() {
   
   return (
      <div className="App">
