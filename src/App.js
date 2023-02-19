@@ -4,6 +4,8 @@ import { Testimony } from './components/testimony.jsx';
 import { boruto_object, zenitsu_object, kakashi_object, minato_object, sasuke_object } from './components/props.js';
 import React from 'react';
 
+//CLASS COMPONENT
+
 // class App extends React.Component {
 //   render() {
 //     return (
@@ -37,6 +39,8 @@ import React from 'react';
 //    );
 //   }
 // }
+
+//FUNCTION COMPONENT
 
 function App() {
   
